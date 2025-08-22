@@ -1,0 +1,63 @@
+/* === BODY === */
+body {
+  font-family: Arial, sans-serif; /* Font standar */
+  display: flex; /* Form di tengah layar */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full tinggi layar */
+  background-color: #f0f0f0; /* Abu terang */
+}
+
+/* === BOX LOGIN === */
+.login {
+  background-color: white; /* Kotak putih */
+  border-radius: 8px; /* Sudut membulat */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  padding: 20px; /* Ruang dalam */
+  width: 500px; /* Lebar tetap */
+}
+
+/* === JUDUL === */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* === LABEL === */
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block; /* Supaya tiap label baris baru */
+}
+
+/* === INPUT === */
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff; /* Fokus warna biru */
+  outline: none;
+}
+
+/* === BUTTON === */
+button {
+  background-color: #28a745; /* Hijau */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 20%;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #218838; /* Hijau lebih gelap saat hover */
+}

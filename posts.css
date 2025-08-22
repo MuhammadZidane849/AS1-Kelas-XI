@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === CONTAINER UTAMA === */
+.container {
+  width: 90%;
+  display: flex; /* Layout fleksibel */
+  margin-top: 20px;
+  background-color: whitesmoke;
+  justify-content: center; /* Isi rata tengah */
+  flex-wrap: wrap; /* Supaya responsif */
+  margin-left: 60px;
+}
+
+/* === BOX DALAM CONTAINER === */
+.container div {
+  width: 250px;
+  height: 120px;
+  margin: 10px;
+  background-color: white;
+  display: inline; /* Dibuat inline, tapi biasanya lebih cocok pakai flex */
+  align-items: center;
+  border-radius: 10px; /* Sudut tumpul */
+}
+
+/* Hover efek */
+.container div:hover {
+  background-color: aliceblue;
+}
+
+/* === HEADER === */
+header {
+  background-color: whitesmoke;
+  height: 55px;
+  display: flex;
+  justify-content: space-between; /* kiri & kanan berjauhan */
+  padding: 0px;
+  padding-top: 0px;
+}
+
+header .left .logo {
+  color: #2e7d32; /* hijau */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header .user {
+  font-weight: bold;
+}
+
+/* === NAVBAR === */
+nav {
+  background-color: #2e7d32; /* hijau */
+  text-align: right;
+  height: 55px;
+}
+
+nav ul {
+  vertical-align: middle;
+}
+
+nav li {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white; /* tulisan putih */
+  text-decoration: none;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #2e7d32;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}

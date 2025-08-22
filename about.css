@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset biar default margin & padding semua elemen = 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* === HEADER === */
+header {
+  background-color: whitesmoke;
+  height: 55px;
+  display: flex;
+  justify-content: space-between; /* kiri & kanan berjauhan */
+  padding: 0px;
+  padding-top: 0px;
+}
+
+header .left .logo {
+  color: #2e7d32; /* hijau */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header .user {
+  font-weight: bold;
+}
+
+/* === NAVBAR === */
+nav {
+  background-color: #2e7d32; /* hijau */
+  text-align: right;
+  height: 55px;
+}
+
+nav ul {
+  vertical-align: middle;
+}
+
+nav li {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white; /* tulisan putih */
+  text-decoration: none;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #2e7d32;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+/* === ABOUT SECTION === */
+.about {
+  display: flex; /* gambar kiri, teks kanan */
+  align-items: center;
+  max-width: 800px;
+  margin: 40px auto; /* tengah di layar */
+  background: #fff;
+  border-radius: 10px; /* sudut melengkung */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* bayangan halus */
+  overflow: hidden;
+  height: 350px;
+}
+
+/* Gambar bagian kiri */
+.about img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover; /* gambar tetap proporsional */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Konten teks bagian kanan */
+.about .content {
+  padding: 20px;
+  width: 60%;
+}
+
+.about .content h2 {
+  margin-bottom: 10px;
+  color: #2e7d32; /* hijau senada */
+  font-size: 1.5rem;
+}
+
+.about .content p {
+  line-height: 1.6; /* spasi antar baris */
+  color: #333; /* abu gelap, lebih enak dibaca */
+}
